@@ -1,0 +1,81 @@
+class: 12pm - 2pm
+3 classes in a week
+    - Monday, Tuesday, Wednesday
+Intructor: Tosiq
+
+3 batches
+2.5m
+    -> frontend
+        - html
+            -> hyper text markup language
+            <h1> Page title </h1>
+        - css (casecading style sheet)
+            -> designing elements
+        - bootstrap / tailwindcss (css library)
+        - js (javascript)
+            -> web interactivity
+        - reactjs basic (ui component lib)
+6m
+    - frontend
+    - php (hyper text preprocessor)
+        -> server side language
+        -> programming language
+        -> mysql
+    - laravel (framework :: mvc)
+        -> mysql
+        - M: Model
+        - V: View
+        - C: Controller
+    - Mern stack
+        - M: Mongodb
+        - E: Express
+        - R: React
+        - N: Node
+
+1y (2nd term :: next 6 months)
+    - Pre-req
+        -> frontend
+    - python core
+    - django / fastapi
+    - c#, asp.net
+    - java, springboot
+______________________________
+
+Free sources: vercel, netlify, github.io
+morgan.vercel.app
+
+Deployment
+    - domain
+        - namecheap.com
+    - hosting server
+        - hostinger
+        - godaddy
+        - dreamhost
+        - bluehost
+        - ultahost
+        - machahost
+
+
+__________________________
+
+Skills
+Resume
+Linkedin profile
+Portfolio
+Github
+
+Skills
+Fiverr / upwork
+freelance / peopleperhour
+
+Themeforest
+shopify
+
+__________________________________
+
+Tools and softwares
+    - Editor (vs code)
+    - Browser (Google chrome)
+    - xampp
+    - Github desktop
+    - just color picker
