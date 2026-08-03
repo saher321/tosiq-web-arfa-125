@@ -37,6 +37,7 @@ Intructor: Tosiq
         -> frontend
     - python core
     - django / fastapi
+
     - c#, asp.net
     - java, springboot
 ______________________________
@@ -78,4 +79,5 @@ Tools and softwares
     - Browser (Google chrome)
     - xampp
     - Github desktop
+    - Mongodb
     - just color picker
