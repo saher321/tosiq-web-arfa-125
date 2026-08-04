@@ -81,3 +81,25 @@ Tools and softwares
     - Github desktop
     - Mongodb
     - just color picker
+
+    ______________________________
+
+    Naming convention (Files / Folders)
+
+    pages
+    utils
+    About us.html       x
+
+    about_us.html       ok
+    aboutUs.html        ok
+    about-us.html       ok
+    aboutus.html        ok
+
+    <html> => opening tag
+    </html> => closing
+
+    Self closing tag
+    form tags
+    <input type="text" />
+    hr, br
+

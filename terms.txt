@@ -1,0 +1,9 @@
+Webpage(single page like landing page) ( collection of buttons forms, and other media items and hyper text)
+
+
+Website / Webpages
+
+Static website
+Dynamic website
+
+Website vs Web application vs admin panel / dashboard
