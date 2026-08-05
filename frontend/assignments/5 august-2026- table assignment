@@ -1,0 +1,9 @@
+Assignment ( Products data in table = 10 records )
+
+add following columns:
+id
+sku
+name
+price
+category
+status
