@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>All Form tags</h2>
+    <form>
+        <div>
+            <label>Color</label>
+            <input type="color">
+        </div>
+        <div>
+            <label>Image</label>
+            <input type="file">
+        </div>
+        <div>
+            <label>Full name</label>
+            <input type="text" placeholder="Enter your full name">
+        </div>
+        <div>
+            <label>Email address</label>
+            <input type="email" placeholder="Enter your email">
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="password" placeholder="Enter your password">
+        </div>
+        <div>
+            <label>DOB</label>
+            <input type="datetime-local">
+        </div>
+        <div>
+            <label>Select range</label>
+            <input type="range" min="0" value="80" max="100">
+        </div>
+
+        
+        <div>
+            <div>Gender</div>
+            <input type="radio" id="m" name="g">
+            <label for="m">Male</label>
+
+            <input type="radio" id="f" name="g">
+            <label for="f">Female</label>
+        </div>
+        
+        <br>
+        <div>
+            <div>Courses</div>
+            <input type="checkbox" id="web">
+            <label for="web">Web development</label>
+
+            <input type="checkbox" id="gd">
+            <label for="gd">Graphic designing</label>
+
+            <input type="checkbox" id="smm">
+            <label for="smm">SMM</label>
+        </div>
+        <br>
+        
+        <div>
+            <label>Degree</label>
+            <select>
+                <option>BSCS</option>
+                <option>MS</option>
+                <option>M.Phil</option>
+                <option>PHD</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Article</label>
+            <textarea cols="30" rows="4" placeholder="Enter content here"></textarea>
+        </div>
+
+
+        <br>
+        <div>
+            <input type="submit" value="Submit student"/> | 
+            <input type="reset" value="Reset Form" />
+            <!-- <button type="submit">Submit</button> -->
+        </div>
+    </form>
+</body>
+</html>

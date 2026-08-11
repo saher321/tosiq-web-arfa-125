@@ -3,3 +3,6 @@
 
 10 August, 2026 (table colpsan rowspan, form tags)
     - https://www.youtube.com/watch?v=8UDykDPv7r4
+
+11 August, 2026 (Form tags, media tags)
+    - https://www.youtube.com/watch?v=aXTYoWUhJmE
