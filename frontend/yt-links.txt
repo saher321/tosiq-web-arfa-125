@@ -1,8 +1,11 @@
 5 August, 2026 (Fromatting, listing, table)
-    - https://www.youtube.com/watch?v=0F8FCSJE11g
+	- https://www.youtube.com/watch?v=0F8FCSJE11g
 
 10 August, 2026 (table colpsan rowspan, form tags)
-    - https://www.youtube.com/watch?v=8UDykDPv7r4
+	- https://www.youtube.com/watch?v=8UDykDPv7r4
 
 11 August, 2026 (Form tags, media tags)
-    - https://www.youtube.com/watch?v=aXTYoWUhJmE
+	- https://www.youtube.com/watch?v=aXTYoWUhJmE
+
+12 August, 2026 (navigations, css intro)
+	- https://www.youtube.com/watch?v=6xGZWACV2vI
