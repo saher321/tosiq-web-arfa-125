@@ -9,3 +9,6 @@
 
 12 August, 2026 (navigations, css intro)
 	- https://www.youtube.com/watch?v=6xGZWACV2vI
+
+17 August, 2026 (css types)
+	- https://www.youtube.com/watch?v=KmA0GY01JTo
