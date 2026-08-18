@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BR+Guides&display=swap');
 /* Text properties
 alignment
 alignment-last
@@ -33,4 +36,14 @@ p {
     word-spacing: 8px;
     letter-spacing: 4px;
 
+    /* font-family: 'verdana', sans-serif; */
+    
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.format {
+    font-family: "Playwrite BR Guides", cursive;
 }
