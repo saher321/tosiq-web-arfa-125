@@ -1,0 +1,36 @@
+/* Text properties
+alignment
+alignment-last
+decoration
+style
+shadow
+transformation
+spacing
+*/
+h2 {
+    background-color: #d1e6f4;
+    color: #12679f;
+    border-left: 4px solid #12679f;
+    padding: 8px 16px;
+}
+
+p::first-letter {
+    font-size: 30px;
+    color: red;
+    text-shadow: 3px 3px 0px #ccc;
+}
+
+p {
+    text-align: justify;
+    text-align-last: center;
+
+    /* text-decoration: underline; */
+    text-decoration-style: wavy;
+    text-decoration-color: green;
+
+    text-transform: capitalize;
+
+    word-spacing: 8px;
+    letter-spacing: 4px;
+
+}
