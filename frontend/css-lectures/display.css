@@ -1,0 +1,47 @@
+body{
+    background-color: #f1f1f1;
+    font-family: 'lucida', sans-serif
+}
+.main {
+    display: flex;
+    justify-content: space-between
+}
+.box {
+    background-color: #450C3F;
+    color: #B9D175
+}
+
+.box1 {
+    background-color: #DF301C;
+    color: #ffaa3c
+}
+
+/* card design */
+.card{
+    margin-top: 20px;
+    background-color: white;
+    max-width: 200px;
+
+    padding: 16px;
+    border-radius: 20px;
+
+    box-shadow: 0px 0px 2px #ccc;
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header > .title {
+    font-size: 11px;
+}
+
+.card-header > .icon {
+    color: #4e99f0
+}
+
+.card-body > div {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 8px;
+}

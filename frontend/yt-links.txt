@@ -15,3 +15,6 @@
 
 18 August, 2026 (external css and text property, fonts, icons)
 	- https://www.youtube.com/watch?v=2xkKd0HIXt8
+
+19 August, 2026 (display)
+	- https://www.youtube.com/watch?v=pkrC1NTol3E
