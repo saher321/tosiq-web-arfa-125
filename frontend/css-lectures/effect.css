@@ -1,0 +1,24 @@
+.btn1:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn2:active {
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn3:focus {
+    background-color: blueviolet;
+    color: white;
+}
+
+input:focus {
+    outline: 2px solid red;
+    border:none;
+    border-radius: 2px;
+}
+
+a:active {
+    color: green;
+}
