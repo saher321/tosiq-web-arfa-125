@@ -21,3 +21,6 @@
 
 24 August, 2026 (navbar ui)
 	- https://www.youtube.com/watch?v=tXY0voT8ytc
+
+25 August, 2026 (css variables, bg image, positions (relative, absolute) )
+	- https://www.youtube.com/watch?v=e6sq4zUDd9E
