@@ -1,0 +1,16 @@
+:root {
+    --base-clr: #FF9100;
+    --corner-rounded: 8px;
+}
+
+h1 {
+    background-color: var(--base-clr);
+}
+
+h2 {
+    border: 2px solid var(--base-clr);
+}
+
+p {
+    color: var(--base-clr);
+}
