@@ -1,0 +1,21 @@
+h2 {
+    color: rgb(93, 93, 93);
+    width: fit-content;
+    position: relative;
+}
+
+h2::before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    top: 4px;
+    background-color: yellowgreen;
+    transition: .3s;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+h2:hover::before{
+    width: 100%;
+}
