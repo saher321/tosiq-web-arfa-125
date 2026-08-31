@@ -24,3 +24,6 @@
 
 25 August, 2026 (css variables, bg image, positions (relative, absolute) )
 	- https://www.youtube.com/watch?v=e6sq4zUDd9E
+
+31 August, 2026 (positions, before - after)
+	- https://www.youtube.com/watch?v=EQdjaAqFNYM
