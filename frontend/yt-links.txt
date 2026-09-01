@@ -27,3 +27,6 @@
 
 31 August, 2026 (positions, before - after)
 	- https://www.youtube.com/watch?v=EQdjaAqFNYM
+
+1 Sep, 2026 (media query, animation)
+	- https://www.youtube.com/watch?v=zI8W_jlwIi8

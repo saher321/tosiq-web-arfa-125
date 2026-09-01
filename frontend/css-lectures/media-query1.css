@@ -1,0 +1,35 @@
+body {
+    background-color: aqua;
+}
+
+h2 {
+    color: red;
+}
+
+button {
+    font-size: 28px
+}
+
+/* mobile screen */
+@media (max-width: 767px) {
+    body {
+        background-color: lightblue;
+    }
+    button {
+        font-size: 11px
+    }
+}
+
+/* tablet */
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    body {
+        background-color: yellowgreen;
+    }
+    p {
+        display: none;
+    }
+    button {
+        font-size: 16px
+    }
+}
