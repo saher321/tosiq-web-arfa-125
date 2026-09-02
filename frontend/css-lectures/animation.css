@@ -1,0 +1,95 @@
+.box {
+    height: 140px;
+    width: 140px;
+    background-color: red;
+
+    /* animation properties */
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+    /* from {
+        margin-left: 0px;
+    }
+    
+    to {
+        background-color: orange;
+        border-radius: 50px;
+        margin-left: 300px;
+    } */
+
+    0% {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    25% {
+        margin-left: 300px;
+        margin-top: 0px;
+    }
+
+    50% {
+        margin-left: 300px;
+        margin-top: 300px;
+    }
+
+    75% {
+        margin-left: 300px;
+        margin-top: 0px;
+    }
+
+
+    100% {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}
+
+.circle {
+    height: 140px;
+    width: 140px;
+    border-top:3px solid red;
+    border-left:3px solid green;
+    border-bottom:3px solid blue;
+    border-right:3px solid yellow;
+    border-radius: 100%;
+
+    animation: circle 3s infinite linear;
+    /* animation-name: circle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+}
+
+@keyframes circle {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        box-shadow: 3px 3px 3px 5px #333;
+        transform: rotate(360deg);
+    }
+}
+
+.pulse {
+    height: 140px;
+    width: 140px;
+    background-color: red;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
