@@ -1,0 +1,10 @@
+.row .sidebar {
+    background-color: purple;
+    padding: 5px;
+    color: white;
+}
+
+.row .content{
+    background-color: #ccc;
+    padding: 5px;
+}
