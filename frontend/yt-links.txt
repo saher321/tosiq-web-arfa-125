@@ -30,3 +30,6 @@
 
 1 Sep, 2026 (media query, animation)
 	- https://www.youtube.com/watch?v=zI8W_jlwIi8
+
+7 Sep, 2026 (bootstrap nav tabs, sliders, grid)
+	- https://www.youtube.com/watch?v=BuLzpfra1Vg
