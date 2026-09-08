@@ -33,3 +33,6 @@
 
 7 Sep, 2026 (bootstrap nav tabs, sliders, grid)
 	- https://www.youtube.com/watch?v=BuLzpfra1Vg
+
+8 Sep, 2026 (Tailwindcss)
+	- https://www.youtube.com/watch?v=4u67qGLuWgs
