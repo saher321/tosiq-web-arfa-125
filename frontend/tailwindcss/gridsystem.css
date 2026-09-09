@@ -2,3 +2,11 @@
     background-color: rgb(237, 197, 124);
     padding: 4px;
 }
+
+.nested div {
+    
+    background-color: rgb(126, 95, 37);
+    padding: 4px;
+    color: white;
+    border-radius: 14px;
+}
