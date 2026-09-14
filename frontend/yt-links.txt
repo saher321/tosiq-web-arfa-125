@@ -36,3 +36,6 @@
 
 8 Sep, 2026 (Tailwindcss)
 	- https://www.youtube.com/watch?v=4u67qGLuWgs
+
+14 Sep, 2026 (JS introduction)
+	- https://www.youtube.com/watch?v=3Gh2PCAj-bE
