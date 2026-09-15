@@ -22,6 +22,7 @@ var data = [
 // console.log(data[3])
 
 // regular express / /
+var email = "myemail@gmail.com"
 var EMAIL_PATTERN = /[a-z0-9\._%+!$&*=^|~#%'`?{}/\-]+@([a-z0-9\-]+\.){1,}([a-z]{2,16})/
 function printSum () {}
 
