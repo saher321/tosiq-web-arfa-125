@@ -1,4 +1,4 @@
-var fa = 96
+var fa = prompt("Enter value in F:")
 
 var cel = (fa-32)*5/9
 
