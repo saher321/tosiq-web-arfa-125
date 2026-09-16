@@ -42,3 +42,6 @@
 
 15 Sep, 2026 (temprature conversion application)
 	- https://www.youtube.com/watch?v=jxGDFmTXYZI
+
+16 Sep, 2026 (dom, if condition)
+	- https://www.youtube.com/watch?v=VPUmVUhs6oM
