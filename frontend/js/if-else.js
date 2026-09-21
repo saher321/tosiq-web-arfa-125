@@ -9,7 +9,7 @@ if (EMAIL_REG.test(useremail)){ // true
 
 let userMark    = 45
 let totalMarks  = 70
-let bands       = 5
+let bands       = 7
 
 if (userMark >= 40 && userMark <= totalMarks) {
     if (bands >=6 && bands <= 8) {
