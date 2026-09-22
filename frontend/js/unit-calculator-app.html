@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Calculate Bill</h2>
+
+    <table>
+        <tr>
+            <th>Units: </th>
+            <td>
+                <input type="number" placeholder="Enter consumed unit" id="consumed-unit">
+            </td>
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <button onclick="calculateBill()">Calculate bill</button>
+            </td>
+        </tr>
+        <tr>
+            <th>Total bill:</th>
+            <td><span id="total-amt"></span></td>
+        </tr>
+    </table>
+    
+    <!-- js -->
+    <script src="./unit-calculator-app.js"></script>
+</body>
+</html>

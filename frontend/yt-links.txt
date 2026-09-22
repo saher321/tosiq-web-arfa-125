@@ -46,5 +46,8 @@
 16 Sep, 2026 (dom, if condition)
 	- https://www.youtube.com/watch?v=VPUmVUhs6oM
 
-21 Sep, 2026 (dom, let-var-const difference, if else, unit calculator app)
+21 Sep, 2026 (dom, let-var-const difference, if else)
 	- https://www.youtube.com/watch?v=z2scQ9_6Ew4
+
+22 Sep, 2026 (multiple if else, unit calculator app, switch statement)
+	- https://www.youtube.com/watch?v=W1bkXCBfelQ
