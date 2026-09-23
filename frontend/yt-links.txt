@@ -51,3 +51,6 @@
 
 22 Sep, 2026 (multiple if else, unit calculator app, switch statement)
 	- https://www.youtube.com/watch?v=W1bkXCBfelQ
+
+23 Sep, 2026 (for loop, arrays)
+	- https://www.youtube.com/watch?v=BkEDuvJQ8UU
