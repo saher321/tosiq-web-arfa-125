@@ -55,5 +55,5 @@
 23 Sep, 2026 (for loop, arrays)
 	- https://www.youtube.com/watch?v=BkEDuvJQ8UU
 
-28 Sep, 2026 (arrays method, localstorage)
+28 Sep, 2026 (arrays method)
 	- https://www.youtube.com/watch?v=3uJAdBPy-6Y
