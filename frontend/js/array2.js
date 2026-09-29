@@ -75,6 +75,23 @@ function showEmployees (emps) {
     })
 }
 
+function getStatus () {
+    let status = document.getElementById("status").value
+    let tbl = document.getElementById("tbl")
+
+    tbl.innerHTML = ""
+    
+    if (status == "all"){
+        showEmployees(employees)
+    } else {
+        const filteredEmployees = employees.filter(
+            (emp) => emp.status == status 
+        )
+        showEmployees(filteredEmployees)
+    }
+
+
+}
 
 // filter method
 // let status = "inactive"
