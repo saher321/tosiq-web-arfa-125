@@ -60,8 +60,40 @@ const employees = [
     {id: 105, name: "Sam", salary: 49000, status: "inactive"},
 ]
 
-let status = "inactive"
-const filteredEmployees = employees.filter(
-    (emp) => emp.status == status 
-)
-console.log(filteredEmployees)
+showEmployees(employees)
+function showEmployees (emps) {
+    let tbl = document.getElementById("tbl")
+    emps.map((emp) => {
+        tbl.innerHTML += `
+        <tr>
+            <td>${emp.id}</td>
+            <td>${emp.name}</td>
+            <td>${emp.salary}</td>
+            <td>${emp.status}</td>
+        </tr>
+        `
+    })
+}
+
+
+// filter method
+// let status = "inactive"
+// const filteredEmployees = employees.filter(
+//     (emp) => emp.status == status 
+// )
+// console.log(filteredEmployees)
+
+// find method
+// let id = 102
+// const emp = employees.find((emp) => emp.id == id)
+// console.log(emp)
+// if (emp) {
+//     console.log(emp)
+// } else {
+//     console.log("Employee not found")
+// }
+
+// reduce method
+
+// let salary = employees.reduce((sum, emp) => sum + emp.salary, 0)
+// console.log('Total salary:', salary)
