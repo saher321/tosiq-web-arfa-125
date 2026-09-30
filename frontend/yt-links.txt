@@ -60,3 +60,6 @@
 
 29 Sep, 2026 (arrays, local storage)
 	- https://www.youtube.com/watch?v=lugtUpFSsNE
+
+30 Sep, 2026 (theme, strings)
+	- https://www.youtube.com/watch?v=s-d6cO2lGzA

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table border="0" cellspacing="0" cellpadding="15">
+        <tr>
+            <td colspan="2">
+                <div>Change Theme</div>
+            </td>
+        </tr>
+        <tr>
+            <td>Text color</td>
+            <td>
+                <input type="color" id="txt-color">
+            </td>
+        </tr>
+        <tr>
+            <td>BG color</td>
+            <td>
+                <input type="color" id="bg-color">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button onclick="saveThemeSettings()">Save theme settings</button>
+                <button onclick="resetToDefault()">Reset to Default</button>
+            </td>
+        </tr>
+    </table>
+
+    <!-- js -->
+    <script src="./theme.js"></script>
+</body>
+</html>
