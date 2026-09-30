@@ -1,7 +1,8 @@
 // STRING METHODS
 // length, concat, includes, startsWith, endsWith
-// charAt, indexOf, lowerCase, upperCase, slice
-// substring, split, padStart, padEnd
+// charAt, indexOf, lowerCase, upperCase, split,
+// slice, substring, padStart, padEnd, 
+// repeat, replace, replaceAll
 
 const EMAIL_REGIX = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
 let str1 = "Hello World"
@@ -43,3 +44,7 @@ const listArray = list.split(",")
 console.log(listArray[2])
 
 let dateTime = "2024-04-01T10:32:50.6917"
+// output: 2024-04-01
+let dateOnly = dateTime.split("T")[0]
+// let dateOnly = dateTime.split("T")[1].split(".")[0]
+console.log(dateOnly)
