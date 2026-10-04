@@ -45,6 +45,6 @@ console.log(listArray[2])
 
 let dateTime = "2024-04-01T10:32:50.6917"
 // output: 2024-04-01
-let dateOnly = dateTime.split("T")[0]
+let dateOnly = dateTime.split("T")[0]     
 // let dateOnly = dateTime.split("T")[1].split(".")[0]
 console.log(dateOnly)
