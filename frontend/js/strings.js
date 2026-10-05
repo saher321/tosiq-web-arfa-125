@@ -38,13 +38,41 @@ let dotCom = email.includes(".com")
 //     console.log("Fine url is: ", fineURL)
 // }
 
-let list = "Apple,Bnana,Orange,Mango,Shoes"
+// let list = "Apple,Bnana,Orange,Mango,Shoes"
 
-const listArray = list.split(",")
-console.log(listArray[2])
+// const listArray = list.split(",")
+// console.log(listArray[2])
 
-let dateTime = "2024-04-01T10:32:50.6917"
+// let dateTime = "2024-04-01T10:32:50.6917"
 // output: 2024-04-01
-let dateOnly = dateTime.split("T")[0]     
+// let dateOnly = dateTime.split("T")[0]     
 // let dateOnly = dateTime.split("T")[1].split(".")[0]
-console.log(dateOnly)
+// console.log(dateOnly)
+
+// slice, substring, padStart, padEnd, 
+// repeat, replace, replaceAll
+
+let paragraph = "A quick brown fox jumps over the lazy dog"
+// let newData = paragraph.slice(7,10)
+// console.log(newData)
+// let newData = paragraph.substring(0,7)
+// console.log(newData)
+
+let price = "2444"
+// let newPrice = price.padEnd(4, "/-")
+let newPrice = `$${price}`
+// console.log(newPrice)
+
+let text = `Lorem Ipsum is simply dummy text of 
+the printing and typesetting industry. 
+Lorem Ipsum has been the industry's 
+standard dummy text ever since 1966`
+
+// let newText = text.replace("Lorem", "Condition")
+let newText = text.replaceAll("Lorem Ipsum", "Condition")
+console.log(newText)
+
+// 3.6 => ceil floor
+let symbol = "I love pakistan. "
+let repeatedText = symbol.repeat(100)
+console.log(repeatedText)
