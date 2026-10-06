@@ -64,6 +64,8 @@
 30 Sep, 2026 (theme, strings)
 	- https://www.youtube.com/watch?v=s-d6cO2lGzA
 
-
 5 Oct, 2026 (String, react intro)
 	- https://www.youtube.com/watch?v=7JDrAc7TKw0
+
+6 Oct, 2026 (Css types and tailwindcss)
+	- https://www.youtube.com/watch?v=DSbMMwc8Igc
