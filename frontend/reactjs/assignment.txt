@@ -1,0 +1,2 @@
+Create settings page in react using tailwindcss
+reference ui is in github
