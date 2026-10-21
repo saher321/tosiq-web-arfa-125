@@ -4,8 +4,10 @@ import SimpleButton from '../components/SimpleButton'
 import WebLayout from '../layouts/WebLayout'
 import toast from 'react-hot-toast'
 import { BotMessageSquare, Bug } from 'lucide-react'
+import { useData } from '../store/useData.js'
 
 const Home = () => {
+    const username = useData(state => state.username)
     const showToast = () => {
         toast.error("Failed to create an account")
     }
@@ -14,7 +16,7 @@ const Home = () => {
       <div className='bg-slate-900 app-name flex p-3 items-center gap-3'>
         <BotMessageSquare className='mt-[3px]'/>
         <Bug className='mt-[3px]' />
-        <span>App</span>
+        <span>App, {username}</span>
       </div>
       <div className='m-3'>
         <button className='bg-teal-800 p-3 rounded text-white ' onClick={showToast}>Click to show toast</button>
