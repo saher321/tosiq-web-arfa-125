@@ -1,0 +1,9 @@
+Create a backend api in node using express
+
+show 5 products
+
+product data should include
+id, name, price, category
+
+
+api url must be: http://localhost:3000/products
