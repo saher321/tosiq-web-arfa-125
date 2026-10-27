@@ -1,0 +1,1 @@
+export const list = [ "Black", "Purple", "Blue", "Green", "Yellow" ]

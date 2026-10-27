@@ -52,3 +52,16 @@ backend pkg:
 -   jsonwebtoken
 -   bcryptjs
 -   cors
+
+
+---------
+Folder Structure
+
+routes
+    - filename.routes.js
+
+controllers
+    - filename.controller.js
+
+models
+    - filename.model.js
