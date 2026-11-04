@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router'
 import Home from '../pages/Home'
 import Employees from '../pages/Employees'
+import AddEmployee from '../pages/AddEmployee'
 import About from '../pages/About'
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/employees' element={<Employees />} />
+        <Route path='/employees/add' element={<AddEmployee />} />
         <Route path='/about-us' element={<About />} />
       </Routes>
     </BrowserRouter>
