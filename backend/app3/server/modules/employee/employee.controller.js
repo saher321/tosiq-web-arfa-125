@@ -44,3 +44,25 @@ export const addEmployee = async (req, res) => {
         console.log(error)
     }
 }
+
+export const deleteEmployee = async (req, res) => {
+    const { id } = req.params
+    if(!id) {
+        return res.send({ status: false, message: "ID not found" })
+    }
+
+    try {
+        const emp = await Employee.findByIdAndDelete({ _id: id })
+        const employees = await Employee.find({})
+
+        if(!emp) {
+            return res.send({ status: false, message: "Employee not found" })
+        }
+
+        return res.send({ status: true, employees, message: "Employee has been deleted" })
+
+
+    } catch (error) {
+        console.log(error)
+    }
+}

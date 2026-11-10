@@ -3,7 +3,8 @@ import WebLayout from '../layouts/WebLayout'
 import { Link } from 'react-router'
 import axios from 'axios'
 import toast from 'react-hot-toast'
-import { EMPLOYEES_API } from '../utils/server_apis.js'
+import { DEL_EMPLOYEE_API, EMPLOYEES_API } from '../utils/server_apis.js'
+import { Trash, UserPen } from 'lucide-react'
 
 const Employees = () => {
 
@@ -20,6 +21,22 @@ const Employees = () => {
     } catch (error) {
       toast.error("Internal server error")
       console.error(error)
+    }
+  }
+
+  const handleDeleteEmployee = async (id) => {
+    if(!confirm("Are you sure you want to delete this?")) return
+    try {
+      const response = await axios.delete(`${DEL_EMPLOYEE_API}/${id}`)
+      if (response.data.status == true) {
+        toast.success(response.data.message)
+        setEmployees(response.data.employees)
+      } else {
+        toast.error(response.data.message)
+      }
+    } catch (error) {
+      toast.error("Internal server error")
+      console.log(error)
     }
   }
 
@@ -81,12 +98,12 @@ const Employees = () => {
 
                     <td className="px-4 py-4">
                       <div className="flex items-center justify-center gap-3">
-                        <button className="text-blue-600 transition hover:text-blue-800">
-                          Edit
+                        <button className="cursor-pointer text-blue-600 transition hover:text-blue-800">
+                          <UserPen size={20} />
                         </button>
 
-                        <button className="text-red-500 transition hover:text-red-700">
-                          Delete
+                        <button onClick={() => handleDeleteEmployee(employee._id)} className="cursor-pointer text-red-500 transition hover:text-red-700">
+                          <Trash size={20} />
                         </button>
                       </div>
                     </td>

@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router'
-import Home from '../pages/Home'
-import Employees from '../pages/Employees'
-import AddEmployee from '../pages/AddEmployee'
-import About from '../pages/About'
+import Home from './pages/Home'
+import Employees from './pages/Employees'
+import AddEmployee from './pages/AddEmployee'
+import About from './pages/About'
 
 const App = () => {
   return (
