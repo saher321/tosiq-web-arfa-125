@@ -1,6 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
+import connectDB from './config/db.js'
 dotenv.config()
 
 const app = express()
@@ -15,7 +16,9 @@ app.get('/check-health', (req, res) => {
     })
 })
 
-app.listen(PORT, () => {
-    console.log(`Server is started at http://localhost:${PORT}`)
+connectDB().then(() => {
+    app.listen(PORT, () => {
+        console.log(`Server is started at http://localhost:${PORT}`)
+    })
 })
 
